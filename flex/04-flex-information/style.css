@@ -28,7 +28,7 @@ img {
 .container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
   gap: 32px;
 }
 
@@ -38,13 +38,6 @@ img {
   gap: 52px;
 }
 
-.text {
-  max-width: 200px;
-  text-align: center;
-}
-
 .barberry, .chilli, .pepper, .saffron {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  max-width: 200px;
 }
