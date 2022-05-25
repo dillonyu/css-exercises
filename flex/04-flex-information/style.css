@@ -24,3 +24,27 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.plant {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.text {
+  max-width: 200px;
+  text-align: center;
+}
+
+.barberry, .chilli, .pepper, .saffron {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
