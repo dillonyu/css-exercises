@@ -31,7 +31,6 @@ body {
   background: royalblue;
   font-size: 24px;
   padding: 16px;
-  display: flex;
   flex-shrink: 0; /* prevents the sidebar from shrinking */
 }
 
@@ -50,11 +49,12 @@ body {
   display: flex;
   flex-direction: column;
   padding: 0px;
-  gap: 10px;
+  gap: 16px;
 }
 
 ul {
   list-style: none;
+  margin: 0;
 }
 
 a {
